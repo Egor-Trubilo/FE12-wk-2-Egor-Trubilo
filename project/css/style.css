@@ -3,6 +3,11 @@
 @import url("/project/css/header.css");
 @import url("/project/css/masterhead.css");
 @import url("/project/css/clients.css");
+@import url("/project/css/footer.css");
+@import url("/project/css/works.css");
+@import url("/project/css/features.css");
+@import url("/project/css/team.css");
+@import url("/project/css/dowload.css");
 * {
   padding: 0;
   margin: 0;
@@ -103,4 +108,16 @@ h6 {
 .section {
   width: 100%;
   margin: auto;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-invision:hover {
+  color: #2f7bbd;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
 }

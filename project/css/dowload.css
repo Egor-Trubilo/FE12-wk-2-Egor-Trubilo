@@ -1,0 +1,77 @@
+.download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.download .download-container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+.download .download-container .download-container-title-discription-button {
+  padding: 99px 0 99px;
+}
+@media (max-width: 768px) {
+  .download .download-container .download-container-title-discription-button {
+    padding: 50px 0 50px;
+  }
+}
+.download .download-container .download-container-title-discription-button .download-container-title {
+  padding-bottom: 16px;
+  margin: auto;
+  max-width: 865px;
+  text-align: center;
+  color: #2d3033;
+  line-height: 32px;
+}
+.download .download-container .download-container-title-discription-button .download-container-title .download-container-title-text {
+  font-size: 1.75rem;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+.download .download-container .download-container-title-discription-button .download-container-discription {
+  padding-bottom: 39px;
+  margin: auto;
+  text-align: center;
+  max-width: 912px;
+  color: #2d3033;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.download .download-container .download-container-title-discription-button .download-container-button {
+  width: 281px;
+  height: 47px;
+  border-radius: 2px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e84545;
+  border: 0;
+  color: #ffffff;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.download .download-container .download-container-title-discription-button .download-container-button:hover {
+  cursor: pointer;
+  color: #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.download .download-container .download-container-title-discription-button .download-container-button:active {
+  -webkit-box-shadow: inset -2px -2px 3px rgba(216, 216, 216, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+          box-shadow: inset -2px -2px 3px rgba(216, 216, 216, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}

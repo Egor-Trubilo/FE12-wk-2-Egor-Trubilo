@@ -1,7 +1,6 @@
 .container_clients {
   margin: auto;
   max-width: 1170px;
-  padding: 0 15px 0 15px;
   position: relative;
 }
 .clients_slider_photo {
@@ -20,19 +19,75 @@
   padding-left: 86px;
   padding-bottom: 183px;
   padding-top: 115px;
+  padding-right: 15px;
+  @media (max-width: 1024px) {
+    padding-bottom: 133px;
+    padding-top: 85px;
+    padding-left: 56px;
+  }
+  @media (max-width: 860px) {
+    padding-bottom: 123px;
+    padding-top: 75px;
+    padding-left: 46px;
+  }
+  @media (max-width: 720px) {
+    padding-bottom: 93px;
+    padding-top: 45px;
+    padding-left: 26px;
+  }
+  @media (max-width: 610px) {
+    padding-bottom: 53px;
+    padding-top: 32px;
+    padding-left: 5px;
+  }
+  @media (max-width: 416px) {
+    padding-bottom: 23px;
+    padding-top: 12px;
+  }
+  
 }
 .clients_slider_comment_text {
+  display: inline-block;
   font-style: italic;
   font-size: 36px;
   line-height: 36px;
   padding-bottom: 30px;
   color: white;
+  @media (max-width: 1024px) {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  @media (max-width: 860px) {
+    
+    font-size: 26px;
+    line-height: 26px;
+    padding-bottom: 18px;
+    text-align: center;
+  }
+  @media (max-width: 610px) {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  @media (max-width: 416px) {
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
 }
 .clients_slider_comment_name {
   font-size: 13px;
   text-transform: uppercase;
   color: white;
   font-style: Raleway-bold;
+  @media (max-width: 860px) {
+    
+    font-size: 12px;
+    text-align: center;
+  }
 }
 /* Слайдер */
 .slick-slider {
@@ -96,10 +151,25 @@
   right: 0;
 }
 .clients_slider .slick-dots {
+  align-items: center;
   display: flex;
   position: absolute;
-  top: 355px;
+  // top: 355px;
+  top: 70%;
   right: 20%;
+  @media (max-width: 860px) {
+   right: 15%;
+  }
+  @media (max-width: 610px) {
+    top: 75%;
+  }
+  @media (max-width: 416px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
 }
 .clients_slider .slick-dots li {
   margin-left: 13px;
@@ -116,5 +186,11 @@
   &:hover {
     background-color: white;
     opacity: 1;
+  }
+  @media (max-width: 416px) {
+    &:hover{
+      background-color: black;
+      opacity: 0.6;
+    }
   }
 }

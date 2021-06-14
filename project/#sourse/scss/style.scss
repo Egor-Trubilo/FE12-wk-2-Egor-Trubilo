@@ -79,7 +79,7 @@ $white: rgba(255, 255, 255, 0.75);
 
 .header {
   width: 100%;
-  font-style: 'Raleway', 'sans-serif';
+  font-style: "Raleway", "sans-serif";
   position: fixed;
   top: 0;
   right: 0;
@@ -88,6 +88,26 @@ $white: rgba(255, 255, 255, 0.75);
   width: 100%;
   margin: auto;
 }
-@import url('/project/css/header.css');
-@import url('/project/css/masterhead.css');
-@import url('/project/css/clients.css');
+.fa-facebook-f {
+  &:hover {
+    color: #3b5998;
+  }
+}
+.fa-invision {
+  &:hover {
+    color: #2f7bbd;
+  }
+}
+.fa-twitter {
+  &:hover {
+    color: #00acee;
+  }
+}
+@import url("/project/css/header.css");
+@import url("/project/css/masterhead.css");
+@import url("/project/css/clients.css");
+@import url("/project/css/footer.css");
+@import url("/project/css/works.css");
+@import url("/project/css/features.css");
+@import url("/project/css/team.css");
+@import url("/project/css/dowload.css");

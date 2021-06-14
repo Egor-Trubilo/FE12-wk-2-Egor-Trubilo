@@ -6,7 +6,7 @@
   background-position: 0 0;
   position: relative;
   &::before {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     background-color: #2b2e4a;
@@ -27,7 +27,7 @@
   z-index: 5;
 }
 .masterhead_title {
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: "Open Sans", "sans-serif";
   text-transform: uppercase;
   font-size: 4.643rem;
   text-align: center;
@@ -36,6 +36,11 @@
   margin-bottom: 41px;
   z-index: 5;
   max-width: 861px;
+  @media (max-width: 768px) {
+    font-size: 2.6rem;
+    line-height: 3rem;
+    margin-bottom: 20px;
+  }
 }
 .masterhad_subtitle {
   z-index: 5;
@@ -45,6 +50,9 @@
   text-align: center;
   color: white;
   margin-bottom: 76px;
+  @media (max-width: 768px) {
+    margin-bottom: 33px;
+  }
 }
 .masterhead_button {
   width: 201px;
